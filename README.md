@@ -40,6 +40,7 @@ var decoded = MapDecode(encoded, map);
 Output
 encoded: "TPUMQYYBJLWDUCGEAEEFB-GB-PFYCORVEAAEVD-GB-UFTCOXVEAFEVNBHARCPB-";
 decoded: "笑顔の女の子 ילדה מחייכת"
+```
 
 **Numeric map**
 ```
