@@ -57,7 +57,7 @@ decoded: "smiling girl";
 **Numeric map 2 (different character order)**
 ```
 var string = "smiling girl";
-var map = "460279831-";
+var map = "4602795831-";
 var encoded = MapEncode(string, map);
 var decoded = MapDecode(encoded, map);
 
