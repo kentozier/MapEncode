@@ -13,7 +13,7 @@ var src = "smiling girl";
 var encoded = MapEncode(src, map);
 var decoded = MapDecode(encoded, map);
 
-*Output*
+Output
 encoded: "LPRXECHBYLWACNHXKCKBC";
 decoded: "smiling girl";
 ```
@@ -25,7 +25,7 @@ var src = "微笑着的女孩";
 var encoded = MapEncode(src, map);
 var decoded = MapDecode(encoded, map);
 
-*Output*
+Output
 encoded: "CGKJONGXJGVHYZTTZEEFB-";
 decoded: "微笑着的女孩";
 ```
@@ -37,7 +37,7 @@ var src = "Χαμογελαστό κορίτσι فتاة مبتسمة ਮੁਸ
 var encoded = MapEncode(src, map);
 var decoded = MapDecode(encoded, map);
 
-*Output*
+Output
 encoded: "ZJZIUQGGRVBPBJUJGGNVBPZIUXGGWVBPAKUD-GB-SKNJUVGGBVBPSJUXGGLVBPB-GB-PJYFOXYEAHHVD-GB-TJWFOAZEARHVPFHLTCPB-GB-GWVSIKHEPXTWESIQHEPB-GB-KWWTIBGEPOVWD-";
 decoded: "Χαμογελαστό κορίτσι فتاة مبتسمة ਮੁਸਕਰਾ ਲੜਕੀ";
 ```
@@ -49,7 +49,7 @@ var src = "smiling girl";
 var encoded = MapEncode(src, map);
 var decoded = MapDecode(encoded, map);
 
-*Output*
+Output
 encoded: "51563765171646950015171056463";
 decoded: "smiling girl";
 ```
