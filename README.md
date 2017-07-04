@@ -30,17 +30,16 @@ encoded: "CGKJONGXJGVHYZTTZEEFB-";
 decoded: "微笑着的女孩";
 ```
 
-**Mixed (Greek, Arabic and Punjabi)**
+**Mixed (Japanese and Hebrew)**
 ```
-var string = "Χαμογελαστό κορίτσι فتاة مبتسمة ਮੁਸਕਰਾ ਲੜਕੀ";
+var string = "笑顔の女の子 ילדה מחייכת"
 var map = "ABCDEFGHIJKLMNOPQRSTUVWXYZ-";
 var encoded = MapEncode(string, map);
 var decoded = MapDecode(encoded, map);
 
 Output
-encoded: "ZJZIUQGGRVBPBJUJGGNVBPZIUXGGWVBPAKUD-GB-SKNJUVGGBVBPSJUXGGLVBPB-GB-PJYFOXYEAHHVD-GB-TJWFOAZEARHVPFHLTCPB-GB-GWVSIKHEPXTWESIQHEPB-GB-KWWTIBGEPOVWD-";
-decoded: "Χαμογελαστό κορίτσι فتاة مبتسمة ਮੁਸਕਰਾ ਲੜਕੀ";
-```
+encoded: "TPUMQYYBJLWDUCGEAEEFB-GB-PFYCORVEAAEVD-GB-UFTCOXVEAFEVNBHARCPB-";
+decoded: "笑顔の女の子 ילדה מחייכת"
 
 **Numeric map**
 ```
