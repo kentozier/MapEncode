@@ -75,4 +75,6 @@ MapEncode uses a completely different algorithm than standard base64 functions, 
 **Note 3**
 MapEncode requires encode/decode maps to be 3 characters or longer
 
+**An interactive demo can be found [here](http://nowser.net/MapEncode/index.html)**
+
 
