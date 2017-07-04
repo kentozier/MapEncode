@@ -42,7 +42,7 @@ encoded: "TPUMQYYBJLWDUCGEAEEFB-GB-PFYCORVEAAEVD-GB-UFTCOXVEAFEVNBHARCPB-";
 decoded: "笑顔の女の子 ילדה מחייכת"
 ```
 
-**Numeric map**
+**Numeric map 1**
 ```
 var string = "smiling girl";
 var map = "0123456789-";
@@ -51,6 +51,18 @@ var decoded = MapDecode(encoded, map);
 
 Output
 encoded: "51563765171646950015171056463";
+decoded: "smiling girl";
+```
+
+**Numeric map 2 (different character order)**
+```
+var string = "smiling girl";
+var map = "460279831-";
+var encoded = MapEncode(string, map);
+var decoded = MapDecode(encoded, map);
+
+Output
+encoded: "96952859686575194469686495752";
 decoded: "smiling girl";
 ```
 
