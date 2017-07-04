@@ -67,7 +67,7 @@ decoded: "smiling girl";
 ```
 
 **Note 1**
-MapEncode and MapDecode use the last character in a set as a trigger to toggle between one byte and two byte encoding. Note that the maps above inclue a "-" char at the end. This was added so that the full character set could be used for encoding. If it had been omitted, the letter "Z" would have been used as the toggle trigger.
+MapEncode and MapDecode use the last character in a set as a trigger to toggle between one byte and two byte encoding. Note that the maps above include a "-" char at the end. This was added so that the full character set could be used for encoding. If it had been omitted, the letter "Z" would have been used as the toggle trigger.
 
 **Note 2**
 MapEncode uses a completely different algorithm than standard base64 functions, so even if you use the standard set of characters, you will get different output. The two are not interchangeable.
