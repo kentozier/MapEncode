@@ -77,6 +77,6 @@ MapEncode requires encode/decode maps to be 3 characters or longer
 
 **An interactive demo can be found [here](http://nowser.net/MapEncode/index.html)**
 
-To use the demo, type or paste the string you want use as the character map into the "Character map" field. Next type or paste the text you want to encode into the "Encode text" field. Click the "Encode" button and the encoded string will appear in the "Result" box. It will also be copied to the input field on the "Decde text" panel. To verify that the source text was translated correctly, just click the "Decode" button.
+To use the demo, type or paste the string you want use as the character map into the "Character map" field. Next type or paste the text you want to encode into the "Encode text" field. Click the "Encode" button and the encoded string will appear in the "Result" box. It will also be copied to the input field on the "Decode text" panel. To verify that the source text was translated correctly, just click the "Decode" button.
 
 Characters can only appear in a map once, so the "Normalized map" box displays a factored representation of the "Character map" string used to actually encode the text.
